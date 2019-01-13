@@ -46,3 +46,17 @@ Alias Address Privkey TxHash Output_index
 12. Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
 Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
 13. Right click on the masternode and click start alias.
+
+----------------------------------------------------------------------------------------------------------
+Multiple Masternode setup:
+You can use the above steps for the first masternode, for setting up more masternodes, you need to purchase more Linunx ubuntu 16.04 VPS. Only one Windows-controller-hot wallet is needed, while multiple Linux VPS are needed if you want to setup multiple Masternodes.
+
+All the above steps are to be followed for multiple masternodes, while doing so... in above step 6 and step 7 you will get new masternode output and new masternode private key. 
+Example file for 3 masternodes in 3 VPS and single Windows controller wallet.
+
+Alias Address Privkey TxHash Output_index
+replaced by
+MN1 145.245.222.111:7119 JKHDGJDFHGKDF8DFJKGHDFK98DKFJ87783JK 9I5I464I56K45J6K45N 1
+MN2 205.141.121.212:7119 UWYERUWYRUIWYERUIWYEURYWUERY878WEUYR 6WERJWHIWEURIWE87WE 0
+
+Save exit the conf file, restart wallet. In masternodes section, you will see new masternode waiting to be enabled. Right click on this new masternode and click Start Alias.

@@ -46,6 +46,7 @@ Alias Address Privkey TxHash Output_index
 12. Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
 Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
 13. Right click on the masternode and click start alias.
+
 The active timer will start ticking only after 3 hours.
 ----------------------------------------------------------------------------------------------------------
 Multiple Masternode setup:

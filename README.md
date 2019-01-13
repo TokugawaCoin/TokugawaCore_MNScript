@@ -57,7 +57,7 @@ Example file for 3 masternodes in 3 VPS and single Windows controller wallet.
 Alias Address Privkey TxHash Output_index
 replaced by
 
--MN1 145.245.222.111:7119 JKHDGJDFHGKDF8DFJKGHDFK98DKFJ87783JK 9I5I464I56K45J6K45N 1
--MN2 205.141.121.212:7119 UWYERUWYRUIWYERUIWYEURYWUERY878WEUYR 6WERJWHIWEURIWE87WE 0
+- MN1 145.245.222.111:7119 JKHDGJDFHGKDF8DFJKGHDFK98DKFJ87783JK 9I5I464I56K45J6K45N 1
+- MN2 205.141.121.212:7119 UWYERUWYRUIWYERUIWYEURYWUERY878WEUYR 6WERJWHIWEURIWE87WE 0
 
 Save exit the conf file, restart wallet. In masternodes section, you will see new masternode waiting to be enabled. Right click on this new masternode and click Start Alias.

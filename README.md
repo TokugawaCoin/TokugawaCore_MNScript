@@ -7,7 +7,7 @@ sudo chmod +x tokinstall.sh
 
 ./tokinstall.sh
 
-When prompted to Enter your bithost Masternode GEN Key.
+When prompted to Enter your tokugawa Masternode GEN Key.
 
 Paster your Masternode GEN Key and press enter
 

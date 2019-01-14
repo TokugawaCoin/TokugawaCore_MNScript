@@ -1,5 +1,8 @@
-# TokugawaCore_MNScript
+# Tokugawa Masternode setup 
 
+Masternode setup needs:
+One cold wallet hosted on Ubuntu 16.04 and (always to be kept online so buy VPS)
+One Windows controller hot wallet that has your coins in it. (can be kept offline... once the Ubuntu wallet starts)
 
 wget -q https://raw.githubusercontent.com/TokugawaCoin/TokugawaCore_MNScript/master/tokinstall.sh
 
@@ -46,10 +49,13 @@ Alias Address Privkey TxHash Output_index
 12. Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
 Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
 13. Right click on the masternode and click start alias.
+The active timer will start ticking after 3 hours.
 
-The active timer will start ticking only after 3 hours.
+
 ----------------------------------------------------------------------------------------------------------
-Multiple Masternode setup:
+Multiple Masternode setup:The active timer will start ticking only after 3 hours.
+
+
 You can use the above steps for the first masternode, for setting up more masternodes, you need to purchase more Linunx ubuntu 16.04 VPS. Only one Windows-controller-hot wallet is needed, while multiple Linux VPS are needed if you want to setup multiple Masternodes.
 
 All the above steps are to be followed for multiple masternodes, while doing so... in above step 6 and step 7 you will get new masternode output and new masternode private key. 

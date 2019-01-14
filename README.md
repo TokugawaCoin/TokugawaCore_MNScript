@@ -53,7 +53,7 @@ The active timer will start ticking after 3 hours.
 
 
 ----------------------------------------------------------------------------------------------------------
-Multiple Masternode setup:The active timer will start ticking only after 3 hours.
+Multiple Masternode setup:
 
 
 You can use the above steps for the first masternode, for setting up more masternodes, you need to purchase more Linunx ubuntu 16.04 VPS. Only one Windows-controller-hot wallet is needed, while multiple Linux VPS are needed if you want to setup multiple Masternodes.

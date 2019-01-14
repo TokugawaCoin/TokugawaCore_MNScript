@@ -1,8 +1,12 @@
 # Tokugawa Masternode setup 
 
 Masternode setup needs:
+
 One cold wallet hosted on Ubuntu 16.04 and (always to be kept online so buy VPS)
+
 One Windows controller hot wallet that has your coins in it. (can be kept offline... once the Ubuntu wallet starts)
+
+Steps to be performed on Ubuntu 16.04
 
 wget -q https://raw.githubusercontent.com/TokugawaCoin/TokugawaCore_MNScript/master/tokinstall.sh
 

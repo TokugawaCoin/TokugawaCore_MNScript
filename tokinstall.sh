@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.tokugawacore'
 COIN_DAEMON='tokugawad'
 COIN_CLI='tokugawa-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/TokugawaCoin/TokugawaCore_New/files/2767857/TokugawaCore-.Daemon_Ubuntu-16.04.tar.gz'
+COIN_TGZ='https://github.com/TokugawaCoin/TokugawaCore_New/files/2955919/Tokugawa-Core-Daemon-.Ubuntu-16.04.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='tokugawa'
 COIN_PORT=7119
@@ -47,7 +47,7 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  tar xzvf TokugawaCore-.Daemon_Ubuntu-16.04.tar.gz
+  tar xzvf Tokugawa-Core-Daemon-.Ubuntu-16.04.tar.gz
   cd rev >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
